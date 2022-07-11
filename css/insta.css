@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(185, 185, 185);
+}
+.inner{
+    width: 1000px;
+    margin: auto;
+}
+.header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.logo a img{
+    width: 70px;
+    margin-left: 170px;
+}
+.header-icon{
+    margin-right: 170px;
+}
+.header-icon a{
+    margin-left: 20px;
+}
+.header-icon a i{
+    font-size: 25px;
+    color: rgb(157, 157, 154);
+}
